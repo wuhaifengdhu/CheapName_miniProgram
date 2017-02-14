@@ -1,0 +1,18 @@
+<view class="title">选择你农历的出生年-月-日</view>
+<view class="date-picker">
+  <picker-view indicator-style="height: 50px;" style="width: 100%; height: 200px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{years}}" style="line-height: 50px">{{item}}年</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{months}}" style="line-height: 50px">{{item}}月</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{days}}" style="line-height: 50px">{{item}}</view>
+    </picker-view-column>
+  </picker-view>
+</view>
+<view class='btn_holder'>
+  <button bindtap="onButtonTap" class="button">查看结果</button>
+</view>
+ 

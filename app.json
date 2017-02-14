@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/name/name",
+    "pages/result/result"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "基于大数据分析的贱名诠释",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#000000"
+  }
+}

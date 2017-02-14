@@ -1,0 +1,61 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.title{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    font-size: 23px;
+}
+
+.button{
+  margin-bottom: 20px;
+  background-color: greenyellow;
+  text-shadow: tan;
+  -ms-text-size-adjust: auto;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn_holder{
+  margin: 0px 20px 0px 20px;
+}
+
+.story{
+  align-content: center;
+  background-color: white;
+  margin: 20px 10px 10px 20px;
+  text-indent: 2em;
+}
+
+.content{
+  margin: 0px 0px 10px 0px;
+}
+
+.img{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80rpx 0;
+  box-sizing: border-box;
+}
+
+/**home.wxss**/
+/** 修改button默认的点击态样式类**/
+.button-hover{
+  background-color:red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover{
+  background-color:blur;
+}

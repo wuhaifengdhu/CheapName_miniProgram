@@ -1,0 +1,17 @@
+<!--home.wxml-->
+<view>
+    <view class="story">
+        <view class="content">
+            <text>在农村，据说给刚出生的孩子起个贱名，孩子容易养活，而且一生都会比较顺利，名字怎么起呢？</text>
+        </view>
+        <view class="content">
+            <text>据说，农村有一本非常古老、神奇的万年历，里面对孩子的名字都作了规。看看你在农村应该叫什么吧。</text>
+        </view>
+    </view>
+    <view class="img">
+        <image src="../image/home.jpg"></image>
+    </view>
+    <view class='btn_holder'>
+        <button bindtap="onButtonTap" class="button">测试</button>
+    </view>
+</view>
